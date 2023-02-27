@@ -1,3 +1,6 @@
+// IK1203 Networks and Communication, Project Task 2
+// Author: Roy L.
+
 package tcpclient;
 import java.net.*;
 import java.io.*;
