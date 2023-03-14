@@ -1,3 +1,6 @@
+// IK1203 Networks and Communication, Task 4
+// Author: Roy L.
+
 import java.net.*;
 import java.io.*;
 
