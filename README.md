@@ -9,4 +9,3 @@ This project consists of
  - task 2: extending TCPClient, so that it can recognize parameters such as `shutdown` (shuts TCP connection after sending data), `timeout` (shuts down the connection if the server does not respond within the time limit) and `limit` (shuts down the connection after receiving a set amount of bytes).
  - task 3: creating HTTPAsk, which is the server of this project. It uses task 1 and 2 and reads the HTTP GET request in order to send data to other websites, receive the data and display it on the web browser.
  - task 4: creating ConcHTTPAsk, which is an extension of task 3 where support for concurrency is added.
-
