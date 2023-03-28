@@ -17,7 +17,7 @@ This project consists of
  3. In your computer's command line, run `javac ConcHTTPAsk.java` to compile the code.
  4. Now, run the code with `java ConcHTTPAsk x`, where x is your computer's port number the server will be hosted from. Example: `java ConcHTTPAsk 7777`.
  5. You should now be able to access the server from your web browser. In the address bar, search `http://localhost:x` (where x is the port number chosen in the step above) to access the server.
- 6. The server does not really do anything at this point. It only works when you input some extra parameters in the address bar. 
+ 6. The server does not really do anything at this point. It only works when you input some extra parameters in the address bar after adding `/ask?`. 
     - Mandatory parameters: `hostname` (the name of the host you want to access) and `port` (the port needed to reach the host). 
     - Optional parameters: `string` (a string that will be sent to the specified host), `shutdown` (if the TCP connection from this server to the specified host should shut down after sending data. If the parameter is added, `shutdown` becomes `true`. If not, it will be `false` as default) and `limit` (shuts the TCP connection both ways after receiving a specified amount of bytes from the specified host).
     An example: `http://localhost:7777/ask?hostname=whois.iis.se&port=43&timeout=300&string=kth.se`.
