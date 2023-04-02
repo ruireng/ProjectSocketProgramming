@@ -11,7 +11,7 @@ This project consists of
  - task 3: creating HTTPAsk, which is the server of this project. It uses task 1 and 2 and reads the HTTP GET request in order to send data to other websites, receive the data and display it on the web browser.
  - task 4: creating ConcHTTPAsk, which is an extension of task 3 where support for concurrency is added.
 
-## Running the server
+## Running the server:
  1. Make sure you have Java installed on your machine.
  2. Download the files from the `Task4` folder in this repository.
  3. In your computer's command line, run `javac ConcHTTPAsk.java` to compile the code.
@@ -21,3 +21,6 @@ This project consists of
     - Mandatory parameters: `hostname` (the name of the host you want to access) and `port` (the port needed to reach the host). 
     - Optional parameters: `string` (a string that will be sent to the specified host), `shutdown` (if the TCP connection from this server to the specified host should shut down after sending data. If the parameter is added, `shutdown` becomes `true`. If not, it will be `false` as default) and `limit` (shuts the TCP connection both ways after receiving a specified amount of bytes from the specified host).
     An example: `http://localhost:7777/ask?hostname=whois.iis.se&port=43&timeout=300&string=kth.se`.
+
+## About this project:
+This project was made during the spring term of 2023.  
