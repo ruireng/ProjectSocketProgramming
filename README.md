@@ -24,4 +24,4 @@ This project consists of
 
 ## About this project:
 This project was made during the spring term of 2023.  
-The project made use of Java's Socket, ServerSocket and Runnable classes, which were imported by java.net and java.io.  
+The project made use of Java's Socket, ServerSocket and Runnable classes. 
