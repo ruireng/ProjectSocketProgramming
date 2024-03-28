@@ -1,4 +1,4 @@
-# IK1203 Networks and Communication - Project: Socket Programming
+# Socket Programming Project
 <!--This is a repository for a project in the course IK1203 Networks and Communcation spring term 2023. The repository should contain all tasks for the project and will be updated during the course of the project. This repository is made as way to keep all tasks and their source code collected in one place.
 
 This project was made by Roy L.-->
@@ -23,5 +23,6 @@ This project consists of
     An example: `http://localhost:7777/ask?hostname=whois.iis.se&port=43&timeout=300&string=kth.se`.
 
 ## About this project:
+Made during the course IK1203 Networks and Communication.
 This project was made during the spring term of 2023.  
 The project made use of Java's Socket, ServerSocket and Runnable classes. 
